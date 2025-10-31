@@ -80,7 +80,7 @@ def main_page():
 def night_page():
     with ui.column().classes('w-[390px] h-[844px] mx-auto bg-white rounded-[40px] shadow-2xl overflow-y-scroll border border-gray-200'):
         ui.button('← 返回', on_click=lambda: ui.navigate.to('/')).classes('m-3 bg-gray-100 text-gray-700 rounded-xl px-4')
-        ui.image('camera1.jpg').classes('m-4 rounded-xl')
+        ui.image('camera1.JPG').classes('m-4 rounded-xl')
 
 
 @ui.page('/2')
@@ -96,28 +96,29 @@ def night_page():
 def night_page():
     with ui.column().classes('w-[390px] h-[844px] mx-auto bg-white rounded-[40px] shadow-2xl overflow-y-scroll border border-gray-200'):
         ui.button('← 返回', on_click=lambda: ui.navigate.to('/')).classes('m-3 bg-gray-100 text-gray-700 rounded-xl px-4')
-        ui.image('camera3.jpg').classes('m-4 rounded-xl')
+        ui.image('camera3.JPG').classes('m-4 rounded-xl')
 
 
 @ui.page('/4')
 def night_page():
     with ui.column().classes('w-[390px] h-[844px] mx-auto bg-white rounded-[40px] shadow-2xl overflow-y-scroll border border-gray-200'):
         ui.button('← 返回', on_click=lambda: ui.navigate.to('/')).classes('m-3 bg-gray-100 text-gray-700 rounded-xl px-4')
-        ui.image('camera4.jpg').classes('m-4 rounded-xl')
+        ui.image('camera4.JPG').classes('m-4 rounded-xl')
 
 
 @ui.page('/5')
 def night_page():
     with ui.column().classes('w-[390px] h-[844px] mx-auto bg-white rounded-[40px] shadow-2xl overflow-y-scroll border border-gray-200'):
         ui.button('← 返回', on_click=lambda: ui.navigate.to('/')).classes('m-3 bg-gray-100 text-gray-700 rounded-xl px-4')
-        ui.image('camera5.jpg').classes('m-4 rounded-xl')
+        ui.image('camera5.JPG').classes('m-4 rounded-xl')
 
 
 @ui.page('/6')
 def night_page():
     with ui.column().classes('w-[390px] h-[844px] mx-auto bg-white rounded-[40px] shadow-2xl overflow-y-scroll border border-gray-200'):
         ui.button('← 返回', on_click=lambda: ui.navigate.to('/')).classes('m-3 bg-gray-100 text-gray-700 rounded-xl px-4')
-        ui.image('camera6.jpg').classes('m-4 rounded-xl')
+        ui.image('camera6.JPG').classes('m-4 rounded-xl')
 
        
+
 ui.run()
